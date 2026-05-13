@@ -1,12 +1,17 @@
-.menu {
-  display: none;
-  flex-direction: column;
+body {
+  margin: 0;
   background: #111;
-  padding: 10px;
 }
 
-.menu a {
-  color: white;
-  text-decoration: none;
-  padding: 8px 0;
+.comic-reader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comic-reader img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
 }
